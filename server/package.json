@@ -1,0 +1,16 @@
+{
+  "name": "word-book-apollo-server",
+  "version": "0.0.1",
+  "description": "apollo server for word book client",
+  "main": "index.ts",
+  "author": "Ce Qi",
+  "license": "MIT",
+  "scripts":{
+    "start": "node dist/server",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.54",
+    "typescript": "^3.9.7"
+  }
+}
